@@ -4,15 +4,16 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 77, 107, 185; /* Color inferior */
+  --background-end-rgb: 168, 170, 188; /* Color superior */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255; /* No cambia */
+    --background-start-rgb: 77, 107, 185; /* Para el color de inicio del degradado */
+    --background-end-rgb: 168, 170, 188; /* Para el color de fin del degradado */
   }
 }
 

@@ -6,12 +6,49 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <header className={styles.head}>
-        <div className="flex-col">
-          <h1 className="font-semibold text-lg">Pruebalo!!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, velit sed fringilla mattis, justo nunc tempus elit, sit amet condimentum arcu quam nec felis. Phasellus ac nisl sed nunc ultrices interdum. Vivamus nec odio quis mauris pretium tincidunt. Proin dictum nisi vel nisi eleifend, sed aliquam justo tincidunt. Sed vel ligula sem. Ut in est nec libero commodo tempor. Nam pretium, elit eget fermentum condimentum, ipsum felis tincidunt augue, eget eleifend ex purus sed risus.</p>
+
+        <div className="flex w-3/4 h-full mx-2 p-6 pl-20 bg-blue-500 rounded-tr-3xl">
+          <div className="w-2/5 "></div>
+          <div className=" items-center "><h1 className="font-bold text-4xl">Pruebalo!</h1><br />
+          <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, velit sed fringilla mattis, justo nunc tempus elit, sit amet condimentum arcu quam nec felis. Phasellus ac nisl sed nunc ultrices interdum. Vivamus nec odio quis mauris pretium tincidunt. Proin dictum nisi vel nisi eleifend, sed aliquam justo tincidunt. </p></div>
+          
+        </div>
+        <div className="w-1/2 mx-4 p-6 text-black">
+          <h1 className="text-2xl font-semibold">Prueba <br />Nuestro <br />Lanzamiento <br />de CHATBOT</h1>
+          <h2 className="text-sm">Nos preocupamos por la futura generación</h2>
         </div>
       </header>
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <div>
+        <div className="flex m-6  justify-center">
+          <div className="w-1/2  pt-12 z-50">
+            <div className=" p-20 bg-white text-black mx-2 mr-10 mt-12 rounded-2xl">
+              <h1 className="font-semibold text-2xl text-blue-500 ">Conoce más</h1><br />
+              <p className="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, velit sed fringilla mattis, justo nunc tempus elit, sit amet condimentum arcu quam nec felis. Phasellus ac nisl sed nunc ultrices interdum. Vivamus nec odio quis mauris pretium tincidunt. Proin dictum nisi vel nisi eleifend, sed aliquam justo tincidunt.</p>
+            </div>
+          </div>
+          <div className="w-1/3  pb-10 z-50">
+            <div className="p-20 bg-white text-black mx-2 ml-10 rounded-2xl ">
+              <h1 className="font-semibold text-2xl text-blue-500">Loren Ipsum</h1><br />
+              <p className="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, velit sed fringilla mattis, justo nunc tempus elit, sit amet condimentum arcu quam nec felis. Phasellus ac nisl sed nunc ultrices interdum. Vivamus nec odio quis mauris pretium tincidunt. Proin dictum nisi vel nisi eleifend, sed aliquam justo tincidunt.</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center items-center ">
+          <div className="absolute" style={{ width: '60%', height:'50%'}}>
+            <Image className="rounded-2xl " src="/ados1.jpeg" alt="ados img" layout="responsive" width={80} height={20} />
+          </div>
+        </div>
+        <div className="flex m-6 justify-center translate-y-10">
+          <div className="w-1/2 pt-12 z-50">
+            <div className=" p-20 bg-white text-black mx-2 mt-12 rounded-2xl">
+              <h1 className="font-semibold text-2xl text-blue-500 ">Conoce más</h1><br />
+              <p className="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, velit sed fringilla mattis, justo nunc tempus elit, sit amet condimentum arcu quam nec felis. Phasellus ac nisl sed nunc ultrices interdum. Vivamus nec odio quis mauris pretium tincidunt. Proin dictum nisi vel nisi eleifend, sed aliquam justo tincidunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
@@ -115,7 +152,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }

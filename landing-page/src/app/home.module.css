@@ -4,5 +4,7 @@
 }
 .head{
     display: flex;
-    
+    height: 250px;
+    /* background-color: aqua; */
+    margin-top: -55px;
 }
